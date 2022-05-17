@@ -1,17 +1,21 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('https://unsplash.com/photos/phIFdC6lA4E');
+  /* background-image: url('https://unsplash.com/photos/phIFdC6lA4E'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  color: aliceblue;
+  /* color: aliceblue; */
+  /* position: fixed; */
 }
 
-.header-container {
-  /* padding-top: 50px; */
-  background-color: black;
+.fw-light {
+  color: #ffffff;
+}
+
+.lead {
+  color: #ffffff;
 }
 
  body {
@@ -28,4 +32,6 @@
   top: 0;
   left: 0;
   margin: 0;
+  opacity: 100%;
+  z-index: -1;
 }
